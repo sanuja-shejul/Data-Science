@@ -1,0 +1,1 @@
+Daily task tracer will track your daily task. And assign which task is completed or not.
