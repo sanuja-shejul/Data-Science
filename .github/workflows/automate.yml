@@ -1,0 +1,21 @@
+name: Automatic Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build Application
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Display Build Message
+        run: echo "Application build started successfully!"
+
+      - name: Build Completed
+        run: echo "Application build completed successfully!"
